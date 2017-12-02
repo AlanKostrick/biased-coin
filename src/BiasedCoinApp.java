@@ -3,6 +3,8 @@ public class BiasedCoinApp {
 
 	public static void main(String[] args) {
 		
+		//I made a change!
+		
 		BiasedCoin coin1 = new BiasedCoin(); //fair 50/50
 		BiasedCoin coin2 = new BiasedCoin(.9);  //90% chance of Heads 10% tails
 		BiasedCoin coin3 = new BiasedCoin(.1);  //10% chance of Heads 90% tails
